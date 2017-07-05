@@ -1,4 +1,4 @@
-# WHMCS_ECPay V1
+# WHMCS_ECPay V1 (調整程式中, 預計8月提供)
 WHMCS 綠界金流
 
 ###使用說明
