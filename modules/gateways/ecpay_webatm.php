@@ -19,7 +19,7 @@ function ecpay_webatm_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => 'WebATM',
+            'Value' => '綠界 - WebATM',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',

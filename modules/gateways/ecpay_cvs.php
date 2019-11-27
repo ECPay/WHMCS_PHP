@@ -20,7 +20,7 @@ function ecpay_cvs_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => '超商代碼',
+            'Value' => '綠界 - 超商代碼',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',

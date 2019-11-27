@@ -19,7 +19,7 @@ function ecpay_credit_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => '信用卡',
+            'Value' => '綠界 - 信用卡',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',
