@@ -20,7 +20,7 @@ function ecpay_atm_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => 'ATM',
+            'Value' => '綠界 - ATM',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',

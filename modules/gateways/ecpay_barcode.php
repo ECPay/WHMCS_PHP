@@ -20,7 +20,7 @@ function ecpay_barcode_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => '超商條碼',
+            'Value' => '綠界 - 超商條碼',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',
