@@ -97,7 +97,7 @@ function ecpay_cvs_link($params) {
     # 交易設定
     $StoreExpireDate = $params['StoreExpireDate'];
     if (!$params['StoreExpireDate']) {
-        $StoreExpireDate = 7; //預設7天
+        $StoreExpireDate = 10800; //預設7天
     }
 
     $transaction = new ECPay_Pay('CVS');
