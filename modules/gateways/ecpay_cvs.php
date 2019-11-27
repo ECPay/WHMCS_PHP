@@ -48,7 +48,7 @@ function ecpay_cvs_config() {
             'Type' => 'text',
             'Size' => '3',
             'Default' => '7',
-            'Description' => '≤ 100 為天數，> 100 為分鐘',
+            'Description' => '以分鐘為單位',
         ),
         'InvoicePrefix' => array(
             'FriendlyName' => '帳單前綴',
