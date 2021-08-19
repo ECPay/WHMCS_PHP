@@ -20,7 +20,7 @@ function ecpay_cvs_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => '超商代碼',
+            'Value' => '綠界 - 超商代碼',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',
@@ -48,7 +48,7 @@ function ecpay_cvs_config() {
             'Type' => 'text',
             'Size' => '3',
             'Default' => '7',
-            'Description' => '≤ 100 為天數，> 100 為分鐘',
+            'Description' => '以分鐘為單位',
         ),
         'InvoicePrefix' => array(
             'FriendlyName' => '帳單前綴',
@@ -97,7 +97,7 @@ function ecpay_cvs_link($params) {
     # 交易設定
     $StoreExpireDate = $params['StoreExpireDate'];
     if (!$params['StoreExpireDate']) {
-        $StoreExpireDate = 7; //預設7天
+        $StoreExpireDate = 10800; //預設7天
     }
 
     $transaction = new ECPay_Pay('CVS');

@@ -19,7 +19,7 @@ function ecpay_androidpay_config() {
     return array(
         'FriendlyName' => array(
             'Type' => 'System',
-            'Value' => 'AndroidPay',
+            'Value' => '綠界 - AndroidPay',
         ),
         'MerchantID' => array(
             'FriendlyName' => '會員編號',
